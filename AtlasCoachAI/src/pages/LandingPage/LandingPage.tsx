@@ -1,5 +1,3 @@
-import Header from "../../components/Header/Header";
-import Footer from "../../components/Footer/Footer";
 import {
   StyledHeroSection,
   StyledHeroOverlay,
@@ -12,7 +10,6 @@ import {
 function LandingPage() {
   return (
     <>
-      <Header />
       <StyledHeroSection>
         <StyledHeroOverlay>
           <StyledHeroTitle>Transform Your Fitness Journey</StyledHeroTitle>
@@ -29,7 +26,6 @@ function LandingPage() {
           </StyledButtonContainer>
         </StyledHeroOverlay>
       </StyledHeroSection>
-      <Footer />
     </>
   );
 }
