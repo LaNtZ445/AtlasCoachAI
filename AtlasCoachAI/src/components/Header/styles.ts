@@ -30,9 +30,12 @@ export const StyledLink = styled.a`
   font-weight: bold;
 
   &:hover {
-    color: red;
+    color: #f33434;
     transform: translateY(-3px);
-    transition: transform 0.2s ease;
+    transition: transform 0.2s ease, color 0.2s ease;
+  }
+  &:focus {
+    outline: none;
   }
 `;
 
@@ -40,4 +43,6 @@ export const StyledLogo = styled.div`
   font-size: 2rem;
   font-weight: bold;
   color: white;
+  cursor: pointer;
+  text-decoration: none;
 `;
