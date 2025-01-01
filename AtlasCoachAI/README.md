@@ -1,30 +1,26 @@
-# React + TypeScript + Vite
+AtlasCoach AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+AtlasCoach AI is a web app that generates personalized workout and meal plans based on your fitness goals and dietary preferences. Answer a few simple questions, and the app will create a plan just for you to help achieve your fitness goals.
 
-Currently, two official plugins are available:
+Features
+Personalized Workout Plans: Weekly workout plans with exercises, sets, and reps based on your goals.
+Personalized Meal Plans: Daily meal plans with breakfast, lunch, dinner, and snacks tailored to your goals and dietary preferences.
+Interactive Quiz: Answer questions about your age, height, weight, fitness goals, and more to get your custom plan.
+Real-time Plan Generation: After completing the quiz, your workout and meal plans are generated instantly.
+How to Use
+Take the Quiz: Answer questions about your fitness goals, activity level, and dietary preferences.
+Get Your Plan: Based on your answers, the app will generate a personalized workout and meal plan.
+View Your Plan: The generated plans are displayed for each day, showing your workouts and meals.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Setup
+Clone the repo: git clone https://github.com/yourusername/AtlasCoachAI.git
+Install dependencies: npm install
+Set up your OpenAI API key in a .env file: VITE_OPENAI_API_KEY=your-api-key
+Start the development server: npm run dev
+Visit http://localhost:5173 to use the app.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Technologies Used
+React
+TypeScript
+OpenAI API
+Styled Components
